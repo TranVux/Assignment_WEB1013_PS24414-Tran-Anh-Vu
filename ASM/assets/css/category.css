@@ -1,0 +1,71 @@
+
+
+.article{
+    width: 1160px;
+    margin-top: 20px;
+    height: max-content;
+    background-color: #406882;
+}
+
+.film-category-header{
+    width: 1140px;
+}
+
+.film-category-container{
+    width: 1140px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.page{
+    width: 450px;
+    height: 40px;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+
+.number-page{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1.78px solid #1A374D;
+    border-radius: 5px;
+    transition: all 0.25s linear;
+}
+
+.number-page:hover{
+    background-color: #36586e;
+}
+
+.page-sentence{
+    background-color: #1A374D;
+}
+
+.dot{
+    border: none;
+}
+
+.page-icon{
+    line-height: 53px;
+    margin: auto 0;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    transition: all 0.25s linear;
+}
+
+.icon-right{
+    transform: rotate(180deg);
+}
+
+.page svg{
+    fill: #1A374D;
+}
+
+.page-icon:hover{
+    fill: #1f425c;
+}
