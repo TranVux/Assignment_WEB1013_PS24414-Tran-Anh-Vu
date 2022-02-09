@@ -140,6 +140,7 @@ html{
 
 .name>.input-name{
     width: calc(50% - 7px);
+    text-transform: capitalize;
 }
 
 .input-pass{
