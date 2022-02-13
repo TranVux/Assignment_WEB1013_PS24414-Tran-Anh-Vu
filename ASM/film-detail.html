@@ -22,6 +22,9 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v13.0"
+        nonce="IG3x6Amr"></script>
     <div class="web-container">
         <!-- Header -->
         <div class="header-top">
@@ -229,7 +232,9 @@
                             </div>
                         </div>
                         <div class="comment-field">
-                            <div class="comment-header">
+                            <div class="fb-comments" data-href="https://tranvux.github.io/AVFilm-demo/film-detail.html"
+                                data-width="770" data-numposts="10"></div>
+                            <!-- <div class="comment-header">
                                 <div class="comment">Bình luận</div>
                                 <div class="sort-commnent">Sắp xếp theo
                                     <select>
@@ -243,7 +248,7 @@
                                     <img class="avt" src="assets/images/avt.jpg"></img>
                                     <textarea cols="90" rows="10"></textarea>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="film-category-header">Phim liên quan</div>
@@ -608,11 +613,11 @@
 
             </div>
         </div>
-        
+
     </div>
     <div class="trailer-video">
-        <iframe width="800  " height="480" src="https://www.youtube.com/embed/2MKkj1DQ0NU"
-            title="YouTube video player" frameborder="0"
+        <iframe width="800  " height="480" src="https://www.youtube.com/embed/2MKkj1DQ0NU" title="YouTube video player"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
