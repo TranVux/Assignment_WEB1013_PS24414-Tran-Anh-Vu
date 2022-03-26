@@ -1,22 +1,20 @@
-
-
-.article{
-    width: 1160px;
+.article {
+    width: 96.7%;
     margin-top: 20px;
     height: max-content;
     background-color: #406882;
 }
 
-.film-category-header{
-    width: 1140px;
+.film-category-header {
+    width: 95%;
 }
 
-.film-category-container{
-    width: 1140px;
+.film-category-container {
+    width: 95%;
     grid-template-columns: repeat(6, 1fr);
 }
 
-.page{
+.page {
     width: 450px;
     height: 40px;
     display: flex;
@@ -27,7 +25,7 @@
     cursor: pointer;
 }
 
-.number-page{
+.number-page {
     height: 40px;
     width: 40px;
     line-height: 40px;
@@ -37,19 +35,19 @@
     transition: all 0.25s linear;
 }
 
-.number-page:hover{
+.number-page:hover {
     background-color: #36586e;
 }
 
-.page-sentence{
+.page-sentence {
     background-color: #1A374D;
 }
 
-.dot{
+.dot {
     border: none;
 }
 
-.page-icon{
+.page-icon {
     line-height: 53px;
     margin: auto 0;
     text-align: center;
@@ -58,14 +56,14 @@
     transition: all 0.25s linear;
 }
 
-.icon-right{
+.icon-right {
     transform: rotate(180deg);
 }
 
-.page svg{
+.page svg {
     fill: #1A374D;
 }
 
-.page-icon:hover{
+.page-icon:hover {
     fill: #1f425c;
 }
