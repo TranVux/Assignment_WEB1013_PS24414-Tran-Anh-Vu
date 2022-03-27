@@ -6,12 +6,12 @@
 }
 
 .film-category-header {
-    width: 95%;
+    width: 97%;
 }
 
 .film-category-container {
-    width: 95%;
-    grid-template-columns: repeat(6, 1fr);
+    width: 97%;
+    grid-template-columns: repeat(var(--amountOfCol_category), 1fr);
 }
 
 .page {
@@ -66,4 +66,29 @@
 
 .page-icon:hover {
     fill: #1f425c;
+}
+
+@media only screen and (min-width: 51.875em) and (max-width: 62.5em) {
+    .film-category-container {
+        --amountOfCol_category: 5;
+    }
+}
+
+
+@media only screen and (min-width: 38.125em) and (max-width: 52em) {
+    .film-category-container {
+        --amountOfCol_category: 4;
+    }
+}
+
+@media only screen and (min-width: 30em) and (max-width: 38.126em) {
+    .film-category-container {
+        --amountOfCol_category: 3;
+    }
+}
+
+@media only screen and (max-width: 29.89em) {
+    .film-category-container {
+        --amountOfCol_category: 2;
+    }
 }
