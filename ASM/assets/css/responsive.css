@@ -11,11 +11,9 @@
 }
 
 /* ẩn header */
-@media only screen and (max-width: 37.5em) {
-    .header-top, .header-bottom {
-        display: none;
-    }
-}
+/* @media only screen and (max-width: 37.5em) {
+    
+} */
 
 @media only screen and (max-width: 46.25em) {
     .section {
@@ -26,9 +24,12 @@
         width: 100%;
     }
 
-    .header-center {
+    /* ẩn header */
+    .header-top, .header-bottom, .header-center {
         display: none;
     }
+
+    /* ------ */
 
     .article {
         width: 100%;
