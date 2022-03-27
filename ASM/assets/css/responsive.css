@@ -87,7 +87,14 @@
         display: flex;
     }
 
+}
 
+/* Menu mobile */
+
+@media only screen and (max-height: 25.875em) {
+    .nav-menu_mobile {
+        height: 82vh;
+    }
 }
 
 /* Table width>=740px and width < 1024px */
@@ -103,7 +110,16 @@
     .mobile-respon {
         display: flex;
     }
+
+    .header-mobile {
+        display: none;
+    }
+
 }
 
 /* Pc width >= 1024px */
-@media only screen and (min-width: 64em) {}
+@media only screen and (min-width: 64em) {
+    .header-mobile {
+        display: none;
+    }
+}
