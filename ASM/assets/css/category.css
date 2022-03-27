@@ -68,6 +68,8 @@
     fill: #1f425c;
 }
 
+
+
 @media only screen and (min-width: 51.875em) and (max-width: 62.5em) {
     .film-category-container {
         --amountOfCol_category: 5;
@@ -88,6 +90,12 @@
 }
 
 @media only screen and (max-width: 29.89em) {
+    .film-category-container {
+        --amountOfCol_category: 2;
+    }
+}
+
+@media only screen and (min-width: 62.5em) {
     .film-category-container {
         --amountOfCol_category: 2;
     }
