@@ -10,6 +10,13 @@
     }
 }
 
+/* ẩn header */
+@media only screen and (max-width: 37.5em) {
+    .header-top, .header-bottom {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 46.25em) {
     .section {
         flex-wrap: wrap;
