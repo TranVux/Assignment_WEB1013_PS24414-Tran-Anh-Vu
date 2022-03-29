@@ -82,7 +82,7 @@
 }
 
 .header-nav-btn.active .roll:nth-child(1) {
-    transform: translate(0, 10px) rotate(-45deg);
+    transform: translateY(10px) rotate(-45deg);
 }
 
 .header-nav-btn.active .roll:nth-child(2) {
@@ -91,7 +91,7 @@
 }
 
 .header-nav-btn.active .roll:nth-child(3) {
-    transform: translate(0px, -10px) rotate(-135deg);
+    transform: translateY(-10px) rotate(-135deg);
 }
 
 .roll {
