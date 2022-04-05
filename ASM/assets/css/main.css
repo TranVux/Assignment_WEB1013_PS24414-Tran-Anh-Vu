@@ -112,7 +112,7 @@
 }
 
 .nav-menu_mobile {
-    position: absolute;
+    position: fixed;
     width: 300px;
     background-color: #1a374d;
     height: 100vh;
@@ -120,10 +120,11 @@
     overflow: auto;
     z-index: 7;
     /* padding-top: 40px; */
-    /* transform: translate(-235px, 18px); */
-    transform: translate(-235px, -685px);
+    transform: translate(0px, 18px);
+    /* transform: translate(-235px, -685px); */
     opacity: 0;
     visibility: hidden;
+    top: 40px;
     z-index: -1;
     box-shadow: -1px 1px 1.5px rgb(12, 12, 12);
     transition: all 0.3s ease-in-out;
